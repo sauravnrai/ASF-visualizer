@@ -14,3 +14,9 @@ No backend, telemetry, API keys, CDNs, or external fonts. Data stays in the brow
 
 ## Development / Pages
 Serve `docs/` with `python3 -m http.server 8080 --directory docs`. Pages source is `main` → `/docs`, with `.nojekyll`. All runtime assets are local, copied from the hub so this repository deploys independently. Keep `assets/data.js`, `navigation.js`, `styles.css`, and `data/sample.csv` synchronized with [ASF](https://github.com/sauravnrai/ASF). Shared schema: `asf.workspace.v1`. Cross-app links use explicit project paths and should be opened in the same tab.
+
+## App Network & new guide
+
+[App Network Hub](https://sauravnrai.github.io/) · [Discovery](https://sauravnrai.github.io/discovery/) · [Read the new guide](https://sauravnrai.github.io/ASF-visualizer/guide.html) · [Source-project catalog](https://sauravnrai.github.io/projects.html)
+
+Choose the chart that answers the question — Bar, line, or scatter—with the limitations visible. Global navigation connects every browser app in both directions. Runtime assets remain bundled locally; Discovery email links only open drafts and never claim background delivery. `assets/network.css` keeps the expanded navigation responsive.
